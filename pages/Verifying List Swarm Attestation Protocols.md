@@ -2,4 +2,5 @@
 	- Legitimate Response (𝑠𝑡𝑎𝑡𝑢𝑠) (LR(𝑠))
 	- Result Timeliness.
 	- Prover Authentication
-- It also present more la
+- It also present more some modification on SIMPLE to make it more robust
+-
