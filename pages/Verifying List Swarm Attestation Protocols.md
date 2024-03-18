@@ -1,3 +1,4 @@
 - This paper tries to introduce a formalisation for list swarm attestation protocols
 	- Legitimate Response (𝑠𝑡𝑎𝑡𝑢𝑠) (LR(𝑠))
-	-
+	- Result Timeliness.
+	- Prover Authentication
