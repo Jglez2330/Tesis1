@@ -1,1 +1,1 @@
-- This paper tries to introduce a new
+- This paper tries to introduce a formalisation for
