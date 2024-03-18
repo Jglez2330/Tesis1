@@ -1,1 +1,3 @@
-- This paper tries to introduce a formalisation for
+- This paper tries to introduce a formalisation for list swarm attestation protocols
+	- Legitimate Response (𝑠𝑡𝑎𝑡𝑢𝑠) (LR(𝑠))
+	-
