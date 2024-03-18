@@ -2,3 +2,4 @@
 	- Legitimate Response (𝑠𝑡𝑎𝑡𝑢𝑠) (LR(𝑠))
 	- Result Timeliness.
 	- Prover Authentication
+- It also present more la
