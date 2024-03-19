@@ -26,5 +26,6 @@
 	- Representing Time.
 		- Count to tell the timeliness of a challenge.
 		- Count must be monotonic
-		-
+		- in CRA protocols, a prover can undergo the attestation process multiple times. Therefore, it is essential to document the exact moment of each attestation. The method for capturing this timing can vary: it might involve precise real-time measurements using clocks or could be represented in a more abstract form, such as through round numbers.
+	-
 		-
