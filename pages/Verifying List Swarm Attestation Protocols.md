@@ -24,5 +24,7 @@
 		- At the core of a CRA protocol is the gener- ation of a digest from a prover’s state. The set of all digests for a software state is given by
 			- Digest = {h(𝜎) | 𝜎 ∈ Σ}
 	- Representing Time.
+		- Count to tell the timeliness of a challenge.
+		- Count must be monotonic
 		-
 		-
