@@ -33,6 +33,8 @@
 		- An attestation result is generated  from a configuration at a particular time:
 			- 𝑅𝑒𝑠𝑢𝑙𝑡 = 𝑃 × Digest × T
 		- We assume that a result for a prover, software state, and time (𝑝𝑟𝑣,𝜎,𝜏) ∈ Γ using the following function:
-			- 𝜇 : Γ → 𝑅𝑒𝑠𝑢𝑙𝑡 where𝜇((𝑝𝑟𝑣,𝜎,𝜏)) = (𝑝𝑟𝑣,h(𝜎),𝑡),and𝜏 ∈𝑏𝑜𝑢𝑛𝑑(𝑝𝑟𝑣,𝑡)
-			  Finally, a result can be judged to indicate a status using 𝜌 : 𝑅𝑒𝑠𝑢𝑙𝑡 → Status
+			- 𝜇 : Γ → 𝑅𝑒𝑠𝑢𝑙𝑡
+		- where 𝜇((𝑝𝑟𝑣,𝜎,𝜏)) = (𝑝𝑟𝑣,h(𝜎),𝑡),and 𝜏 ∈ 𝑏𝑜𝑢𝑛𝑑(𝑝𝑟𝑣,𝑡)
+		- Finally, a result can be judged to indicate a status using
+			- 𝜌 : 𝑅𝑒𝑠𝑢𝑙𝑡 → Status
 		-
