@@ -4,4 +4,5 @@
 	- Prover Authentication
 - It also present more some modification on SIMPLE to make it more robust
 - What problem the paper presents
-	- They is not formal definition for CRA list swarm attestation protocols. This means that there is not set of characteristics
+	- They is not formal definition for CRA list swarm attestation protocols. This means that there is not set of characteristics that list CRA protocals meet to ensure a basic secure setup.
+-
