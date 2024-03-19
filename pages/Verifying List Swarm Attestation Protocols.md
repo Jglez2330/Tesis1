@@ -6,4 +6,5 @@
 - What problem the paper presents
 	- They is not formal definition for CRA list swarm attestation protocols. This means that there is not set of characteristics that list CRA protocals meet to ensure a basic secure setup.
 - Why the problem is interesting
-	- The formali
+	- The formalisation of a common set of formal requirements will help to categorize and set a minimum requirement for new swarm protocols
+-
