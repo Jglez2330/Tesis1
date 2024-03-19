@@ -10,4 +10,6 @@
 - Interesting concepts:
 	- In this paper, we focus on L-QoSA protocols, which let a verifier identify which provers in the swarm are healthy and which provers failed to be successfully attested, e.g., SIMPLE+ [5], LISA-𝛼 [10], SANA [2], and SeED [23].
 	- Quality of Swarm Attestation (QoSA), which describes how much information about the swarm a verifier receives.
-- Formali
+- Formalisation:
+	- Defining a Swarm
+		-
