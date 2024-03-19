@@ -30,7 +30,7 @@
 	- Formal Result and sets
 		- The software configuration 𝜎 ∈ Σ of a prover 𝑝𝑟𝑣 ∈ 𝑃 at a given real time 𝜏 ∈ R+ is a member of the set:
 			- Γ =𝑃 × Σ × R+
-		- An attestation result is generated (using the function 𝜇 below) from
-		  a configuration at a particular time:
-		  𝑅𝑒𝑠𝑢𝑙𝑡 =ˆ 𝑃 × Digest × T
+		- An attestation result is generated  from a configuration at a particular time:
+			- 𝑅𝑒𝑠𝑢𝑙𝑡 = 𝑃 × Digest × T
+		-
 		-
