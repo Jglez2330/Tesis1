@@ -19,5 +19,7 @@
 		- We let Σ denote the set of all possible software states that a prover can be in. The purpose of an attestation protocol is to determine the Status of the provers. If a prover is in a state that the verifier considers acceptable, it has the healthy status. Otherwise, it is unhealthy.
 			- Status = {Healthy, Unhealthy}
 	- Defining Digest.
-		-
+		- Representation of the Status.
+		- Could Help to cover prover information
+		- At the core of a CRA protocol is the gener- ation of a digest from a prover’s state. The set of all digests for a
 		-
