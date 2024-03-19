@@ -14,5 +14,7 @@
 	- Defining a Swarm
 		- In the context of CRA protocols, the paper outlines two primary roles: the prover (denoted as 𝑝𝑟𝑣) and the verifier (denoted as vrf). A distinctive feature of CRA protocols is the involvement of multiple provers in a single execution of the protocol. These provers are collectively referred to as 𝑃. The combination of a single verifier and the set of provers is represented as a swarm, noted as the pair (vrf, 𝑃). The paper specifically concentrates on CRA protocols that employ a single verifier for its analysis.
 	- Defining State and Status.
-		- Similar to automatons language ∑
+		- Similar to automatons language ∑ 
 		  id:: 65f91d5e-38ad-41f0-a0f4-ed5686718eaf
+		- We let Σ denote the set of all possible software states that a prover can be in. The purpose of an attestation protocol is to determine the Status of the provers. If a prover is in a state that the verifier considers acceptable, it has the healthy status. Otherwise, it is unhealthy.
+			- Status = {Healthy, Unhealthy}
