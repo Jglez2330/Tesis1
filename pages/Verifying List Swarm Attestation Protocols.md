@@ -18,3 +18,6 @@
 		  id:: 65f91d5e-38ad-41f0-a0f4-ed5686718eaf
 		- We let Σ denote the set of all possible software states that a prover can be in. The purpose of an attestation protocol is to determine the Status of the provers. If a prover is in a state that the verifier considers acceptable, it has the healthy status. Otherwise, it is unhealthy.
 			- Status = {Healthy, Unhealthy}
+	- Defining Digest.
+		-
+		-
