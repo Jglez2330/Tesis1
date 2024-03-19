@@ -7,4 +7,6 @@
 	- They is not formal definition for CRA list swarm attestation protocols. This means that there is not set of characteristics that list CRA protocals meet to ensure a basic secure setup.
 - Why the problem is interesting
 	- The formalisation of a common set of formal requirements will help to categorize and set a minimum requirement for new swarm protocols
--
+- Interesting concepts:
+	- In this paper, we focus on L-QoSA protocols, which let a verifier identify which provers in the swarm are healthy and which provers failed to be successfully attested, e.g., SIMPLE+ [5], LISA-𝛼 [10], SANA [2], and SeED [23].
+	- Quality of Swarm Attestation (QoSA), which describes how much information about the swarm a verifier receives.
