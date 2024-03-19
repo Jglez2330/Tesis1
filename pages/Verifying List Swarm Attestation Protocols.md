@@ -12,4 +12,7 @@
 	- Quality of Swarm Attestation (QoSA), which describes how much information about the swarm a verifier receives.
 - Formalisation:
 	- Defining a Swarm
-		-
+		- In the context of CRA protocols, the paper outlines two primary roles: the prover (denoted as 𝑝𝑟𝑣) and the verifier (denoted as vrf). A distinctive feature of CRA protocols is the involvement of multiple provers in a single execution of the protocol. These provers are collectively referred to as 𝑃. The combination of a single verifier and the set of provers is represented as a swarm, noted as the pair (vrf, 𝑃). The paper specifically concentrates on CRA protocols that employ a single verifier for its analysis.
+	- Defining State and Status.
+		- Similar to automatons language
+		  id:: 65f91d5e-38ad-41f0-a0f4-ed5686718eaf
