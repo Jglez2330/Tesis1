@@ -37,4 +37,5 @@
 		- where 𝜇((𝑝𝑟𝑣,𝜎,𝜏)) = (𝑝𝑟𝑣,h(𝜎),𝑡),and 𝜏 ∈ 𝑏𝑜𝑢𝑛𝑑(𝑝𝑟𝑣,𝑡)
 		- Finally, a result can be judged to indicate a status using
 			- 𝜌 : 𝑅𝑒𝑠𝑢𝑙𝑡 → Status
-		-
+- Threat Models
+	-
