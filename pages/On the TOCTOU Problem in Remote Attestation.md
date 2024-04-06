@@ -33,3 +33,6 @@
 	  (1)SimilartoRATAA,nosoftwarerunningonPrvcanoverwrite LMT , i.e., LMT is only modifiable by RAT AB hardware.
 	  (2) An update to LMT is triggered only immediately after a successful authentication during Attest computation.
 	  (3) The first successful authentication happening after a modification of AR always causes LMT to be updated with the current value of Chal which is stored in MR. (Recall from Table 1 that MR is the memory location from which Attest reads the value of Chal.)
+	- ![Screenshot 2024-04-06 at 13.32.02.png](../assets/Screenshot_2024-04-06_at_13.32.02_1712431924983_0.png)
+	- ![Screenshot 2024-04-06 at 13.32.20.png](../assets/Screenshot_2024-04-06_at_13.32.20_1712431943490_0.png)
+	-
