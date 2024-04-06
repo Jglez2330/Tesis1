@@ -36,3 +36,5 @@
 	- ![Screenshot 2024-04-06 at 13.32.02.png](../assets/Screenshot_2024-04-06_at_13.32.02_1712431924983_0.png)
 	- ![Screenshot 2024-04-06 at 13.32.20.png](../assets/Screenshot_2024-04-06_at_13.32.20_1712431943490_0.png)
 	-
+- CONCLUSIONS
+	- In this paper, we design, prove security of, and formally verify two designs (RATAA and RATAB) to secure RA against TOCTOU- related attacks, which perform illegal binary modifications on a low-end embedded system, in between successive RA instances. RATAA and RATAB modules are formally specified and verified using a model-checker. They are also composed with VRASED – a verified RA architecture. We show that this composition is TOCTOU- secure using a reduction-based cryptographic proof. Our evaluation demonstrates that a TOCTOU-Secure design is affordable even for cost-sensitive low-end embedded devices. Also, i n most cases, it reduces RA time complexity from linear to constant, in the size of the attested memory.
