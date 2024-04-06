@@ -4,5 +4,6 @@
 	- This important problem, called Time-Of-Check-Time-Of-Use (TOCTOU), is well-known in the research literature and remains unaddressed in the context of hybrid RA.
 	- In this work, we propose Remote Attestation with TOCTOU Avoidance (RATA): a provably secure approach to address the RA TOCTOU problem. With RATA, even malware that erases it- self before execution of the next RA, can not hide its ephemeral presence.RATAtargetshybridRAarchitectures,whichareaimedat low-end embedded devices. We present two variants – RAT AA and RATAB – suitable for devices with and without real-time clocks, respectively
 		- demonstrates low hardware overhead of both techniques. Compared with current hybrid RA architectures – that offer no TOC- TOU protection – RATA incurs no extra runtime overhead.
-- Insteresti
+- Interesting methods
+	- They use a MSP430 RTL to simulate and add custom HW to the device to monitor/control the access entries on the
 -
