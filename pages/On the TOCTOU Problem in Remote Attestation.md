@@ -24,4 +24,6 @@
 	  (1) It monitors a set of CPU signals and detects whenever any location within AR is written. This is achieved by checking the value of signals Daddr , Wen, DMAaddr , and DMAen (see Section 3.2). These signals allow detection of memory modifications either by CPU or DMA.
 	  (2) Whenever a modification in AR is detected, RAT AA logs the timestamp by reading the current time from the RTC and storing it in a fixed memory location, called Latest Modification Time (LMT ).
 	  (3) In the memory layout, LMT ∈ AR. Also, RATAA enforces that LMT is always read-only for all software executing on the MCU, and for DMA.
+	- ![Screenshot 2024-04-06 at 13.26.21.png](../assets/Screenshot_2024-04-06_at_13.26.21_1712431584122_0.png)
+	- ![Screenshot 2024-04-06 at 13.26.38.png](../assets/Screenshot_2024-04-06_at_13.26.38_1712431600639_0.png)
 	-
