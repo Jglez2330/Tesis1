@@ -18,4 +18,6 @@
 	- ![Screenshot 2024-04-06 at 13.11.51.png](../assets/Screenshot_2024-04-06_at_13.11.51_1712430716638_0.png)
 	- The proposed method of a "timestamp" ensures the integrity of the memory region
 	- ![Screenshot 2024-04-06 at 13.13.21.png](../assets/Screenshot_2024-04-06_at_13.13.21_1712430805503_0.png)
--
+- RATA_A: RTC-BASED TOCTOU-SECURE TECHNIQUE
+	- ![Screenshot 2024-04-06 at 13.14.16.png](../assets/Screenshot_2024-04-06_at_13.14.16_1712430860340_0.png)
+	-
