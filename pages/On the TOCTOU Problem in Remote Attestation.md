@@ -14,4 +14,4 @@
 	  A4 – MCU Reset: At the end of a successful reset routine, all regis- ters (including PC) are set to zero before resuming normal software execution flow. Resets are handled by the MCU in hardware. Thus, the reset handling routine can not be modified. When a reset hap- pens, the corresponding reset signal is set. The same signal is also set when the MCU initializes for the first time.
 - RA TOCTOU
 - ![Screenshot 2024-04-06 at 13.06.56.png](../assets/Screenshot_2024-04-06_at_13.06.56_1712430421546_0.png)
--
+	- Continuous attestation can be a
