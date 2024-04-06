@@ -8,4 +8,8 @@
 	- They use a MSP430 RTL to simulate and add custom HW to the device to monitor/control the access entries on the attested region
 - This paper is centered around a witness for modifications on the attested regions, meaning this a software attestation and not a CF attestation as the one we want for the thesis
 - Device model(signals)
--
+	- A1 – Program Counter (PC): PC always contains the address of the instruction being executed in a given CPU cycle.
+	  A2 – Memory Address: Whenever memory is read or written, a data-address signal (Daddr ) contains the address of the correspond- ing memory location. For a read access, a data read-enable bit (Ren) must be set, while, for a write access, a data write-enable bit (Wen) must be set.
+	  A3 – DMA: Whenever the Direct Memory Access (DMA) controller attempts to access the main system memory, a DMA-address sig- nal (DMAaddr ) reflects the address of the memory location being accessed and the DMA-enable bit (DMAen) is set. DMA can not access memory without setting DMAen.
+	  A4 – MCU Reset: At the end of a successful reset routine, all regis- ters (including PC) are set to zero before resuming normal software execution flow. Resets are handled by the MCU in hardware. Thus, the reset handling routine can not be modified. When a reset hap- pens, the corresponding reset signal is set. The same signal is also set when the MCU initializes for the first time.
+	-
