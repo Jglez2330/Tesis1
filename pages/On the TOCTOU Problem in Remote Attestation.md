@@ -18,7 +18,8 @@
 	- ![Screenshot 2024-04-06 at 13.11.51.png](../assets/Screenshot_2024-04-06_at_13.11.51_1712430716638_0.png)
 	- The proposed method of a "timestamp" ensures the integrity of the memory region
 	- ![Screenshot 2024-04-06 at 13.13.21.png](../assets/Screenshot_2024-04-06_at_13.13.21_1712430805503_0.png)
-- RATA_A: RTC-BASED TOCTOU-SECURE TECHNIQUE
+- #RATA_A: RTC-BASED TOCTOU-SECURE TECHNIQUE
+  id:: 66119ed6-f75a-4069-ac01-296d946e669d
 	- ![Screenshot 2024-04-06 at 13.14.16.png](../assets/Screenshot_2024-04-06_at_13.14.16_1712430860340_0.png)
 	- RATA_A is illustrated in Figure 4; it is designed as a verified hardware module behaving as follows:
 	  (1) It monitors a set of CPU signals and detects whenever any location within AR is written. This is achieved by checking the value of signals Daddr , Wen, DMAaddr , and DMAen (see Section 3.2). These signals allow detection of memory modifications either by CPU or DMA.
