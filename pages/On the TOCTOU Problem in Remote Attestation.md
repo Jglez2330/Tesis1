@@ -6,5 +6,5 @@
 		- demonstrates low hardware overhead of both techniques. Compared with current hybrid RA architectures – that offer no TOC- TOU protection – RATA incurs no extra runtime overhead.
 - Interesting methods
 	- They use a MSP430 RTL to simulate and add custom HW to the device to monitor/control the access entries on the attested region
-- This paper is centered around t
+- This paper is centered around
 -
