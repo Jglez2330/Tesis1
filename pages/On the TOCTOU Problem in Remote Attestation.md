@@ -26,4 +26,5 @@
 	  (3) In the memory layout, LMT ∈ AR. Also, RATAA enforces that LMT is always read-only for all software executing on the MCU, and for DMA.
 	- ![Screenshot 2024-04-06 at 13.26.21.png](../assets/Screenshot_2024-04-06_at_13.26.21_1712431584122_0.png)
 	- ![Screenshot 2024-04-06 at 13.26.38.png](../assets/Screenshot_2024-04-06_at_13.26.38_1712431600639_0.png)
+	- LMT is basically the witness that the attested region hasn't been modified, because if the attacker
 - RATA_B: CLOCKLESS TOCTOU-SECURE RA TECHNIQUE
