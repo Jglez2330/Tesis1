@@ -16,4 +16,6 @@
 - ![Screenshot 2024-04-06 at 13.06.56.png](../assets/Screenshot_2024-04-06_at_13.06.56_1712430421546_0.png)
 	- Continuous attestation can be a DDOS if the attested region is large and the device clock frequency is low. And it does not solve the TOCTOU attacks as they is a windows for the malicious software to attack
 	- ![Screenshot 2024-04-06 at 13.11.51.png](../assets/Screenshot_2024-04-06_at_13.11.51_1712430716638_0.png)
-	- The proposed method of a timestamp
+	- The proposed method of a "timestamp" ensures the integrity of the memory region
+	- ![Screenshot 2024-04-06 at 13.13.21.png](../assets/Screenshot_2024-04-06_at_13.13.21_1712430805503_0.png)
+-
