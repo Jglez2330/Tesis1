@@ -20,4 +20,8 @@
 	- ![Screenshot 2024-04-06 at 13.13.21.png](../assets/Screenshot_2024-04-06_at_13.13.21_1712430805503_0.png)
 - RATA_A: RTC-BASED TOCTOU-SECURE TECHNIQUE
 	- ![Screenshot 2024-04-06 at 13.14.16.png](../assets/Screenshot_2024-04-06_at_13.14.16_1712430860340_0.png)
+	- RATA_A is illustrated in Figure 4; it is designed as a verified hardware module behaving as follows:
+	  (1) It monitors a set of CPU signals and detects whenever any location within AR is written. This is achieved by checking the value of signals Daddr , Wen, DMAaddr , and DMAen (see Section 3.2). These signals allow detection of memory modifications either by CPU or DMA.
+	  (2) Whenever a modification in AR is detected, RAT AA logs the timestamp by reading the current time from the RTC and storing it in a fixed memory location, called Latest Modification Time (LMT ).
+	  (3) In the memory layout, LMT ∈ AR. Also, RATAA enforces that LMT is always read-only for all software executing on the MCU, and for DMA.
 	-
