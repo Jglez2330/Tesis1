@@ -1,3 +1,6 @@
 - Resume
 	- The paper aims to bridge the existing research gap on PPSC schemes by systematizing previous studies in the field. Its primary focus lies on two categories: PPSC schemes based on cryptographic tools such as zero-knowledge proofs, as well as schemes based on trusted execution environments.
 	- The authors aim to provide a condensed summary of the different approaches taken in constructing PPSC schemes. Additionally, a comparative analysis of these approaches is offered, highlighting the similarities and differences between them.
+	- Furthermore, the paper sheds light on the challenges developers encounter when designing and implementing PPSC schemes. It also delves into potential future directions for improving and advancing these schemes, discussing possible avenues for further research and development.
+- Crypto-based PPSC schemes
+-
