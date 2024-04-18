@@ -1,4 +1,4 @@
 - Objetivos:
 	- Definir eficiente
 	- Definir control-flow attestation
-	- Definir
+	- Definir Sin trusted setup
