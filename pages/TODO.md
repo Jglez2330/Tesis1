@@ -1,2 +1,3 @@
 - Objetivos:
-	-
+	- Definir eficiente
+	- Definir
